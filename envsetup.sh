@@ -19,5 +19,5 @@ OBJCOPY=llvm-objcopy \
 OBJDUMP=llvm-objdump \
 STRIP=llvm-strip "
 
-#make O=out $args test_defconfig -j11 
+make O=out $args g8_kernel_docker_defconfig -j11 
 #ake O=out $args -j20
