@@ -2,7 +2,6 @@ export ARCH=arm64
 export SUBARCH=arm64
 export KBUILD_BUILD_HOST=Archlinux
 export KBUILD_BUILD_USER=mcstark
-export LOCALVERSION=-bymcstark
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
 export PATH="$HOME/kernel-project/python/py27/bin/:$HOME/kernel-project/toolchain/clang-17/bin:$HOME/kernel-project/toolchain/gcc/bin:$PATH"
 #rm -rf out
